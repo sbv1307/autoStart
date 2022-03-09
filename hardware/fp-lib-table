@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Local_Connectors")(type "KiCad")(uri "${KICAD_LOCAL_FOOTPRINT_DIR}/Local_Connectors.pretty")(options "")(descr ""))
+)

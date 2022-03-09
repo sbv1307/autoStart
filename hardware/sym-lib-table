@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Local_Miscellaneous_Library")(type "KiCad")(uri "${KICAD_LOCAL_SYMBOL_DIR}/Local_Miscellaneous_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Local_Connectors_Library")(type "KiCad")(uri "${KICAD_LOCAL_SYMBOL_DIR}/Local_Connectors_Library.kicad_sym")(options "")(descr ""))
+)

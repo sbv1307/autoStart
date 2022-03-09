@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Steen\Documents\3 - My OTHER documents\Projects\autoStart\hardware\autoStart.kicad_sch</source>
+    <date>09-03-2022 08:11:59</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Auto start ON/OFF</title>
+        <company>El-Tek Trafikteknik I/S</company>
+        <rev>0.1.0</rev>
+        <date>2022-01-18</date>
+        <source>autoStart.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10nf</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a97ead2-7589-4551-b2d9-de162cb5deac</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nf</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b485fa8-406a-42d5-9a01-13ae76ec07b5</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nf</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28402017-1373-4e9f-83bc-1dd8451e4b54</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0,1uf</value>
+      <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eadbd981-3871-4a5e-b0f6-150a44ad3638</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0,47uf</value>
+      <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cfa7063-c4b5-46af-9650-edea0d667d90</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa316fcb-dced-4e60-b564-aaa337ffa79b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack3_Switch</value>
+      <footprint>Local_Connectors:AUDIO_JACK_ASJ-195-L-HT</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203694/asj-195-x-ht-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Description">3,50mm (0,141", 1/8", ministik) - hovedtelefon Telefonhunstik Stereo (3 ledere, TRS) Stikforbindelse Loddemetal</field>
+      </fields>
+      <libsource lib="Local_Connectors_Library" part="AudioJack3_Switch" description="Audio Jack, 3 Poles 5 Connections (Stereo / TRS), Switched R Pole (Model ASJ-195-L-HT)"/>
+      <property name="Description" value="3,50mm (0,141&quot;, 1/8&quot;, ministik) - hovedtelefon Telefonhunstik Stereo (3 ledere, TRS) Stikforbindelse Loddemetal"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a87b0f82-053d-4565-9725-893652a134ac</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b82d50c0-6690-4d03-8e11-7c35a4abeefa</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b739a5d-c787-4f6f-8edd-9626528c59c7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84f23cc9-9d15-4bf2-9356-88729f7800a5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1285524f-89d0-4d02-aefe-e518a73bc9d2</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66d6eb4e-9208-4629-8995-d5cd5f06910e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7efe5ee-cba0-4cf1-9fc1-5d8b92fb1e3c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e8626e9-0690-4ccf-811b-d7bbf0a0d0cb</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>680k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2439e8e5-8d54-48f7-8459-a929dd2253e1</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>150k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b7cd2a4-1936-4fdb-bffc-e601c4d53c5e</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>33k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b59752a-d972-48f4-83f2-64c74371e836</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>180</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8ea072a-5280-4e50-9717-efa22066ff67</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ICL7621BMTV</value>
+      <footprint>Package_TO_SOT_THT:TO-99-8</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/ICL7612-ICL764X.pdf</datasheet>
+      <libsource lib="Local_Miscellaneous_Library" part="ICL7621BMTV" description="Dual  monolithic  CMOS Operational Amplifier combine  ultra-low  input  current  with  low-power , TO-99"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5eb055d-d792-407e-be11-cdfb358264b5 83b48755-0ed7-423b-8576-45d3e14c23c4</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ICL7621BMTV</value>
+      <footprint>Package_TO_SOT_THT:TO-99-8</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/ICL7612-ICL764X.pdf</datasheet>
+      <libsource lib="Local_Miscellaneous_Library" part="ICL7621BMTV" description="Dual  monolithic  CMOS Operational Amplifier combine  ultra-low  input  current  with  low-power , TO-99"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec0022a3-b763-4968-bab2-da03f869dff4</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>78S05M</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_UNI-SEMI-78S05M_C400136.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C400136</field>
+        <field name="Manufacturer">UNI-SEMI</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM7805_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"/>
+      <property name="Manufacturer" value="UNI-SEMI"/>
+      <property name="JLCPCB Part #" value="C400136"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eee40991-bfad-494f-89cf-cff149d4e6b0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Connectors_Library" part="AudioJack3_Switch">
+      <description>Audio Jack, 3 Poles 5 Connections (Stereo / TRS), Switched R Pole (Model ASJ-195-L-HT)</description>
+      <docs>https://app.adam-tech.com/products/download/data_sheet/203694/asj-195-x-ht-data-sheet.pdf</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3_Switch</field>
+        <field name="Datasheet">https://app.adam-tech.com/products/download/data_sheet/203694/asj-195-x-ht-data-sheet.pdf</field>
+        <field name="Description">3,50mm (0,141", 1/8", ministik) - hovedtelefon Telefonhunstik Stereo (3 ledere, TRS) Stikforbindelse Loddemetal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="T" type="passive"/>
+        <pin num="3" name="RA" type="passive"/>
+        <pin num="5" name="R" type="passive"/>
+        <pin num="6" name="RN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Miscellaneous_Library" part="ICL7621BMTV">
+      <description>Dual  monolithic  CMOS Operational Amplifier combine  ultra-low  input  current  with  low-power , TO-99</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/ICL7612-ICL764X.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICL7621BMTV</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-99-8</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/ICL7612-ICL764X.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM7805_TO220">
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC547">
+      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Local_Connectors_Library">
+      <uri>C:\Users\Steen\Documents\3 - My OTHER documents\Projects\kicad-library\symbols/Local_Connectors_Library.kicad_sym</uri>
+    </library>
+    <library logical="Local_Miscellaneous_Library">
+      <uri>C:\Users\Steen\Documents\3 - My OTHER documents\Projects\kicad-library\symbols/Local_Miscellaneous_Library.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="R" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="T" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="12" name="VCC">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="13" name="VS">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="14" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="RA" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="RN" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
