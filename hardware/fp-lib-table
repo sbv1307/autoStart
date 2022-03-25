@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "Local_Connectors")(type "KiCad")(uri "${KICAD_LOCAL_FOOTPRINT_DIR}/Local_Connectors.pretty")(options "")(descr ""))
+  (lib (name "Resistor_local")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/Resistor_local.pretty")(options "")(descr ""))
+  (lib (name "Local_Project_Connectors_Library")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/Local_Project_Connectors_Library.pretty")(options "")(descr ""))
 )

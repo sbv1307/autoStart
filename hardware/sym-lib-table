@@ -1,4 +1,8 @@
 (sym_lib_table
   (lib (name "Local_Miscellaneous_Library")(type "KiCad")(uri "${KICAD_LOCAL_SYMBOL_DIR}/Local_Miscellaneous_Library.kicad_sym")(options "")(descr ""))
   (lib (name "Local_Connectors_Library")(type "KiCad")(uri "${KICAD_LOCAL_SYMBOL_DIR}/Local_Connectors_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Local_Device_Library")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Local_Device_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Local_Diode_Library")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Local_Diode_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Local_MCU_Module_Library")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Local_MCU_Module_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Local_Transistor_BJT_Library")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Local_Transistor_BJT_Library.kicad_sym")(options "")(descr ""))
 )

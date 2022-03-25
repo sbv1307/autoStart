@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Steen\Documents\3 - My OTHER documents\Projects\autoStart\hardware\autoStart.kicad_sch</source>
-    <date>09-03-2022 08:11:59</date>
+    <date>25-03-2022 09:39:09</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,63 +25,138 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>10nf</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C10nf_SMD</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191223_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf</datasheet>
+      <fields>
+        <field name="Description">50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="JLCPCB Part #">C15195</field>
+        <field name="LibPart">Local_Device_Library:C10nf_SMD</field>
+        <field name="MFR.Part #">CL05B103KB5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="C10nf_SMD" description="Unpolarized capacitor 10nF, 50V, C_0402"/>
+      <property name="Description" value="50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LibPart" value="Local_Device_Library:C10nf_SMD"/>
+      <property name="JLCPCB Part #" value="C15195"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR.Part #" value="CL05B103KB5NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1a97ead2-7589-4551-b2d9-de162cb5deac</tstamps>
+      <tstamps>8e98d142-8c88-4d5f-bef3-b5547b559648</tstamps>
     </comp>
     <comp ref="C2">
-      <value>100nf</value>
-      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C100nf_SMD</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="Description">16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="LibPart">Local_Device_Library:C100nf_SMD</field>
+        <field name="MFR.Part #">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="C100nf_SMD" description="Unpolarized capacitor 100nF, 50V, C_0402"/>
+      <property name="Description" value="16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LibPart" value="Local_Device_Library:C100nf_SMD"/>
+      <property name="JLCPCB Part #" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR.Part #" value="CL05B104KO5NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7b485fa8-406a-42d5-9a01-13ae76ec07b5</tstamps>
+      <tstamps>2e55f653-f93e-44ce-b2d3-6b3b9868221e</tstamps>
     </comp>
     <comp ref="C3">
-      <value>100nf</value>
-      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C100nf_SMD</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="Description">16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="LibPart">Local_Device_Library:C100nf_SMD</field>
+        <field name="MFR.Part #">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="C100nf_SMD" description="Unpolarized capacitor 100nF, 50V, C_0402"/>
+      <property name="Description" value="16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LibPart" value="Local_Device_Library:C100nf_SMD"/>
+      <property name="JLCPCB Part #" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR.Part #" value="CL05B104KO5NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>28402017-1373-4e9f-83bc-1dd8451e4b54</tstamps>
+      <tstamps>67c2610f-ded2-4706-91e9-d3c55a9db179</tstamps>
     </comp>
     <comp ref="C4">
-      <value>0,1uf</value>
-      <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm</footprint>
-      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <value>C100nf_SMD</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="Description">16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="LibPart">Local_Device_Library:C100nf_SMD</field>
+        <field name="MFR.Part #">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="C100nf_SMD" description="Unpolarized capacitor 100nF, 50V, C_0402"/>
+      <property name="Description" value="16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LibPart" value="Local_Device_Library:C100nf_SMD"/>
+      <property name="JLCPCB Part #" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR.Part #" value="CL05B104KO5NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>eadbd981-3871-4a5e-b0f6-150a44ad3638</tstamps>
+      <tstamps>6fe48e39-ea87-4892-9cda-70c80ae55e3c</tstamps>
     </comp>
     <comp ref="C5">
-      <value>0,47uf</value>
-      <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm</footprint>
-      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <value>C330nf_SMD</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811071214_FH-Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf</datasheet>
+      <fields>
+        <field name="Description">50V 330nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="JLCPCB Part #">C1740</field>
+        <field name="LibPart">Local_Device_Library:C330nf_SMD</field>
+        <field name="MFR.Part #">0805B334K500NT</field>
+        <field name="Manufacturer">FH(Guangdong Fenghua Advanced Tech)</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="C330nf_SMD" description="Unpolarized capacitor 220nF, 50V, C_0805"/>
+      <property name="Description" value="50V 330nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LibPart" value="Local_Device_Library:C330nf_SMD"/>
+      <property name="JLCPCB Part #" value="C1740"/>
+      <property name="Manufacturer" value="FH(Guangdong Fenghua Advanced Tech)"/>
+      <property name="MFR.Part #" value="0805B334K500NT"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1cfa7063-c4b5-46af-9650-edea0d667d90</tstamps>
+      <tstamps>51e9f050-afc8-4a90-a5c2-fee577adabbe</tstamps>
     </comp>
     <comp ref="D1">
-      <value>1N4148</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <value>1N4148WS</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C2128</field>
+        <field name="LibPart">Local_Diode_Library:1N4148WS</field>
+        <field name="MFR.Part #">1N4148WS</field>
+        <field name="Manufacturer">Changjiang Electronics Tech (CJ)</field>
+      </fields>
+      <libsource lib="Local_Diode_Library" part="1N4148WS" description="100V 0.15A Fast switching Diode, SOD-323F"/>
+      <property name="LibPart" value="Local_Diode_Library:1N4148WS"/>
+      <property name="JLCPCB Part #" value="C2128"/>
+      <property name="Manufacturer" value="Changjiang Electronics Tech (CJ)"/>
+      <property name="MFR.Part #" value="1N4148WS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>aa316fcb-dced-4e60-b564-aaa337ffa79b</tstamps>
+      <tstamps>da79018f-582e-4b35-8ecb-5d135307ddcd</tstamps>
     </comp>
     <comp ref="J1">
       <value>AudioJack3_Switch</value>
-      <footprint>Local_Connectors:AUDIO_JACK_ASJ-195-L-HT</footprint>
+      <footprint>Local_Connectors:AUDIO_JACK_ASJ-195-L-HT-(Backside_Mount)</footprint>
       <datasheet>https://app.adam-tech.com/products/download/data_sheet/203694/asj-195-x-ht-data-sheet.pdf</datasheet>
       <fields>
         <field name="Description">3,50mm (0,141", 1/8", ministik) - hovedtelefon Telefonhunstik Stereo (3 ledere, TRS) Stikforbindelse Loddemetal</field>
@@ -91,226 +166,356 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a87b0f82-053d-4565-9725-893652a134ac</tstamps>
+      <tstamps>e1791752-7122-406a-af83-44e661ce1cc4</tstamps>
     </comp>
     <comp ref="J2">
-      <value>Screw_Terminal_01x03</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <value>Screw_Terminal_01x03-Connector</value>
+      <footprint>Local_Connectors:Phoenix_TERM_BLOCK_3POS_45DEG_5MM_PCB</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1988817.pdf</datasheet>
+      <fields>
+        <field name="Description">TERM BLOCK 3POS 45DEG 5MM PCB</field>
+        <field name="Digi-Key Part #">277-1765-ND</field>
+        <field name="LibPath">Local_connectors_Library:Screw_Terminal_01x03-Connector</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part #">1988817</field>
+      </fields>
+      <libsource lib="Local_Connectors_Library" part="Screw_Terminal_01x03-Connector" description="Phoenix TERM BLOCK 3POS 45DEG 5MM PCB (Frontside Mount)"/>
+      <property name="Description" value="TERM BLOCK 3POS 45DEG 5MM PCB"/>
+      <property name="Digi-Key Part #" value="277-1765-ND"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Manufacturer Part #" value="1988817"/>
+      <property name="LibPath" value="Local_connectors_Library:Screw_Terminal_01x03-Connector"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b82d50c0-6690-4d03-8e11-7c35a4abeefa</tstamps>
+      <tstamps>fbe7458d-10c7-401d-8407-e7d185f78628</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Male</value>
+      <footprint>Local_Project_Connectors_Library:PinHeader_1x03_P_5mm_Vertical-(Backside_Mount)</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="autoStart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d5d1965-7e4f-443b-ac22-0029a0011f47</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>BC547</value>
-      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
-      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <value>S8050_SOT23</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811052004_Changjiang-Electronics-Tech--CJ-SS8050_C2150.pdf</datasheet>
+      <fields>
+        <field name="Category">Transistors</field>
+        <field name="Description">25V 300mW 1.5A 200@100mA,1V 100MHz 500mV@800mA,80mA NPN +150℃@(Tj) SOT-23(SOT-23-3) Bipolar Transistors - BJT ROHS</field>
+        <field name="Famely">Transistors</field>
+        <field name="JLCPCB Part #">C2150</field>
+        <field name="LibPart">Local_Transistor_BJT_Library</field>
+        <field name="Manufacturer">Changjiang Electronics Tech (CJ)</field>
+        <field name="Manufacturer PN">SS8050</field>
+      </fields>
+      <libsource lib="Local_Transistor_BJT_Library" part="S8050_SOT23" description="0.5A Ic, 25V Vce, 300mW, NPN Bipolar Transistor, SOT-23"/>
+      <property name="LibPart" value="Local_Transistor_BJT_Library"/>
+      <property name="Category" value="Transistors"/>
+      <property name="Description" value="25V 300mW 1.5A 200@100mA,1V 100MHz 500mV@800mA,80mA NPN +150℃@(Tj) SOT-23(SOT-23-3) Bipolar Transistors - BJT ROHS"/>
+      <property name="Famely" value="Transistors"/>
+      <property name="JLCPCB Part #" value="C2150"/>
+      <property name="Manufacturer" value="Changjiang Electronics Tech (CJ)"/>
+      <property name="Manufacturer PN" value="SS8050"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0b739a5d-c787-4f6f-8edd-9626528c59c7</tstamps>
+      <tstamps>847445e6-6bfa-44c0-9b00-23db63a5cfef</tstamps>
     </comp>
     <comp ref="R1">
-      <value>10k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R10K_0.0625W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25744</field>
+        <field name="LibPart">Local_Device_Library:R10K_0.0625W</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF1002TCE</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="R10K_0.0625W" description="Chip Resistor 10k, 1/16W"/>
+      <property name="LibPart" value="Local_Device_Library:R10K_0.0625W"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Famely" value="Resistor"/>
+      <property name="JLCPCB Part #" value="C25744"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0402WGF1002TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>84f23cc9-9d15-4bf2-9356-88729f7800a5</tstamps>
+      <tstamps>0e6d62ee-5290-463b-b6a3-348f3f210894</tstamps>
     </comp>
     <comp ref="R2">
-      <value>10k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R10K_0.0625W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25744</field>
+        <field name="LibPart">Local_Device_Library:R10K_0.0625W</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF1002TCE</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="R10K_0.0625W" description="Chip Resistor 10k, 1/16W"/>
+      <property name="LibPart" value="Local_Device_Library:R10K_0.0625W"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Famely" value="Resistor"/>
+      <property name="JLCPCB Part #" value="C25744"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0402WGF1002TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1285524f-89d0-4d02-aefe-e518a73bc9d2</tstamps>
+      <tstamps>fb3bfbee-6f99-4a51-8cf1-2dce6a47df04</tstamps>
     </comp>
     <comp ref="R3">
-      <value>10k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R10K_0.0625W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25744</field>
+        <field name="LibPart">Local_Device_Library:R10K_0.0625W</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF1002TCE</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="R10K_0.0625W" description="Chip Resistor 10k, 1/16W"/>
+      <property name="LibPart" value="Local_Device_Library:R10K_0.0625W"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Famely" value="Resistor"/>
+      <property name="JLCPCB Part #" value="C25744"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0402WGF1002TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>66d6eb4e-9208-4629-8995-d5cd5f06910e</tstamps>
+      <tstamps>ff79a113-4f33-4b08-b49b-7b8077536c1a</tstamps>
     </comp>
     <comp ref="R4">
-      <value>330k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R330K_0.0625W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF3303TCE_C25778.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 330kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25778</field>
+        <field name="LibPart">Local_Device_Library:R330K_0.0625W</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF3303TCE</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="R330K_0.0625W" description="Chip Resistor 330k, 1/16W"/>
+      <property name="LibPart" value="Local_Device_Library:R330K_0.0625W"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 330kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Famely" value="Resistor"/>
+      <property name="JLCPCB Part #" value="C25778"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0402WGF3303TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b7efe5ee-cba0-4cf1-9fc1-5d8b92fb1e3c</tstamps>
+      <tstamps>0ef868b3-d04b-45fb-a0bf-e26a137ce013</tstamps>
     </comp>
     <comp ref="R5">
-      <value>100k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R100K_0.0625W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 100kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25741</field>
+        <field name="LibPart">Local_Device_Library:R100K_0.0625W</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF1003TCE</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="R100K_0.0625W" description="Chip Resistor 100k, 1/16W"/>
+      <property name="LibPart" value="Local_Device_Library:R100K_0.0625W"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 100kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Famely" value="Resistor"/>
+      <property name="JLCPCB Part #" value="C25741"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0402WGF1003TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7e8626e9-0690-4ccf-811b-d7bbf0a0d0cb</tstamps>
+      <tstamps>8bb0ad01-4615-4b41-b303-c12c81cbcecf</tstamps>
     </comp>
     <comp ref="R6">
-      <value>680k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R680K_0.1W</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/10W Thick Film Resistors 75V ±100ppm/℃ -55℃~+155℃ 680kΩ 0603 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25822</field>
+        <field name="LibPart">Local_Device_Library:R680K_0.1W</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF6803T5E</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="R680K_0.1W" description="Chip Resistor 680k, 0,1W"/>
+      <property name="LibPart" value="Local_Device_Library:R680K_0.1W"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="±1% 1/10W Thick Film Resistors 75V ±100ppm/℃ -55℃~+155℃ 680kΩ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Famely" value="Resistor"/>
+      <property name="JLCPCB Part #" value="C25822"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF6803T5E"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2439e8e5-8d54-48f7-8459-a929dd2253e1</tstamps>
+      <tstamps>8692d0d2-ebdc-46a7-9612-0b937b869980</tstamps>
     </comp>
     <comp ref="R7">
-      <value>150k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R150K_0.0625W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1503TCE_C25755.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 150kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25755</field>
+        <field name="LibPart">Local_Device_Library:R150K_0.0625W</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF1503TCE</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="R150K_0.0625W" description="Chip Resistor 150k, 1/16W"/>
+      <property name="LibPart" value="Local_Device_Library:R150K_0.0625W"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 150kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Famely" value="Resistor"/>
+      <property name="JLCPCB Part #" value="C25755"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0402WGF1503TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7b7cd2a4-1936-4fdb-bffc-e601c4d53c5e</tstamps>
+      <tstamps>9d60a3a9-0743-4222-84d5-8dfe321e0799</tstamps>
     </comp>
     <comp ref="R8">
-      <value>33k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R33K_0.0625W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF3302TCE_C25779.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 33kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25779</field>
+        <field name="LibPart">Local_Device_Library:R33K_0.0625W</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF3302TCE</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="R33K_0.0625W" description="Chip Resistor 33k, 1/16W"/>
+      <property name="LibPart" value="Local_Device_Library:R33K_0.0625W"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 33kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Famely" value="Resistor"/>
+      <property name="JLCPCB Part #" value="C25779"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0402WGF3302TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6b59752a-d972-48f4-83f2-64c74371e836</tstamps>
+      <tstamps>3b075278-5ed2-441c-8759-f636be1b32dc</tstamps>
     </comp>
     <comp ref="R9">
-      <value>180</value>
-      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R180_0.125W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0805W8F1800T5E_C25270.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/8W Thick Film Resistors 150V ±100ppm/℃ -55℃~+155℃ 180Ω 0805 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25270</field>
+        <field name="LibPart">Local_Device_Library:R180_0.125W</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0805W8F1800T5E</field>
+      </fields>
+      <libsource lib="Local_Device_Library" part="R180_0.125W" description="Chip Resistor 180, 1/8W"/>
+      <property name="LibPart" value="Local_Device_Library:R180_0.125W"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="±1% 1/8W Thick Film Resistors 150V ±100ppm/℃ -55℃~+155℃ 180Ω 0805 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Famely" value="Resistor"/>
+      <property name="JLCPCB Part #" value="C25270"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0805W8F1800T5E"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a8ea072a-5280-4e50-9717-efa22066ff67</tstamps>
+      <tstamps>ac028924-fe8d-4d4f-9238-82931f534f5b</tstamps>
     </comp>
     <comp ref="U1">
-      <value>ICL7621BMTV</value>
-      <footprint>Package_TO_SOT_THT:TO-99-8</footprint>
-      <datasheet>https://datasheets.maximintegrated.com/en/ds/ICL7612-ICL764X.pdf</datasheet>
-      <libsource lib="Local_Miscellaneous_Library" part="ICL7621BMTV" description="Dual  monolithic  CMOS Operational Amplifier combine  ultra-low  input  current  with  low-power , TO-99"/>
+      <value>LM358DR2G</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811100911_onsemi-LM358DR2G-_C7950.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C7950</field>
+        <field name="LibPart">Local_Miscellaneous_Library:LM358DR2G</field>
+        <field name="MFR.Part #">LM358DR2G</field>
+        <field name="Manufacturer">onsemi</field>
+      </fields>
+      <libsource lib="Local_Miscellaneous_Library" part="LM358DR2G" description="Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"/>
+      <property name="LibPart" value="Local_Miscellaneous_Library:LM358DR2G"/>
+      <property name="JLCPCB Part #" value="C7950"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="MFR.Part #" value="LM358DR2G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c5eb055d-d792-407e-be11-cdfb358264b5 83b48755-0ed7-423b-8576-45d3e14c23c4</tstamps>
+      <tstamps>c351df71-0e24-4cc3-aa74-551ea70dc1f2 d239de5b-c207-44a4-963c-3b122216511a ab5bdb9d-4333-4b28-94da-6a5b98f5dbfc</tstamps>
     </comp>
     <comp ref="U2">
-      <value>ICL7621BMTV</value>
-      <footprint>Package_TO_SOT_THT:TO-99-8</footprint>
-      <datasheet>https://datasheets.maximintegrated.com/en/ds/ICL7612-ICL764X.pdf</datasheet>
-      <libsource lib="Local_Miscellaneous_Library" part="ICL7621BMTV" description="Dual  monolithic  CMOS Operational Amplifier combine  ultra-low  input  current  with  low-power , TO-99"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="autoStart.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ec0022a3-b763-4968-bab2-da03f869dff4</tstamps>
-    </comp>
-    <comp ref="U3">
-      <value>78S05M</value>
+      <value>78L05G_SOT89</value>
       <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_UNI-SEMI-78S05M_C400136.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809200029_UTC-Unisonic-Tech-78L05G-AB3-R_C71136.pdf</datasheet>
       <fields>
-        <field name="JLCPCB Part #">C400136</field>
-        <field name="Manufacturer">UNI-SEMI</field>
+        <field name="JLCPCB Part #">C71136</field>
+        <field name="LibPart">Local_Misckllaneous_Library:78L05G_SOT89</field>
+        <field name="MFR.Part #">78L05G-AB3-R</field>
+        <field name="Manufacturer">UTC(Unisonic Tech)</field>
       </fields>
-      <libsource lib="Regulator_Linear" part="LM7805_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"/>
-      <property name="Manufacturer" value="UNI-SEMI"/>
-      <property name="JLCPCB Part #" value="C400136"/>
+      <libsource lib="Local_Miscellaneous_Library" part="78L05G_SOT89" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"/>
+      <property name="LibPart" value="Local_Misckllaneous_Library:78L05G_SOT89"/>
+      <property name="JLCPCB Part #" value="C71136"/>
+      <property name="Manufacturer" value="UTC(Unisonic Tech)"/>
+      <property name="MFR.Part #" value="78L05G-AB3-R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="autoStart.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>eee40991-bfad-494f-89cf-cff149d4e6b0</tstamps>
+      <tstamps>af658df6-c407-45bf-b917-7a264b484f45</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Screw_Terminal_01x03">
-      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
-        <fp>TerminalBlock*:*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Value">Conn_01x03_Male</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="C">
-      <description>Unpolarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="C_Polarized_Small">
-      <description>Polarized capacitor, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>CP_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Polarized_Small</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="R">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Diode" part="1N4148">
-      <description>100V 0.15A standard switching diode, DO-35</description>
-      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
-      <footprints>
-        <fp>D*DO?35*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">1N4148</field>
-        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
-        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Local_Connectors_Library" part="AudioJack3_Switch">
@@ -333,9 +538,309 @@
         <pin num="6" name="RN" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Local_Miscellaneous_Library" part="ICL7621BMTV">
-      <description>Dual  monolithic  CMOS Operational Amplifier combine  ultra-low  input  current  with  low-power , TO-99</description>
-      <docs>https://datasheets.maximintegrated.com/en/ds/ICL7612-ICL764X.pdf</docs>
+    <libpart lib="Local_Connectors_Library" part="Screw_Terminal_01x03-Connector">
+      <description>Phoenix TERM BLOCK 3POS 45DEG 5MM PCB (Frontside Mount)</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1988817.pdf</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03-Connector</field>
+        <field name="Footprint">Local_Connectors:Phoenix_TERM_BLOCK_3POS_45DEG_5MM_PCB-(Frontside_Mount)</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1988817.pdf</field>
+        <field name="Description">TERM BLOCK 3POS 45DEG 5MM PCB</field>
+        <field name="Digi-Key Part #">277-1765-ND</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Part #">1988817</field>
+        <field name="LibPath">Local_connectors_Library:Screw_Terminal_01x03-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Device_Library" part="C100nf_SMD">
+      <description>Unpolarized capacitor 100nF, 50V, C_0402</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C100nf_SMD</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</field>
+        <field name="Description">16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LibPart">Local_Device_Library:C100nf_SMD</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MFR.Part #">CL05B104KO5NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Device_Library" part="C10nf_SMD">
+      <description>Unpolarized capacitor 10nF, 50V, C_0402</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1810191223_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C10nf_SMD</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810191223_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf</field>
+        <field name="Description">50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LibPart">Local_Device_Library:C10nf_SMD</field>
+        <field name="JLCPCB Part #">C15195</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MFR.Part #">CL05B103KB5NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Device_Library" part="C330nf_SMD">
+      <description>Unpolarized capacitor 220nF, 50V, C_0805</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1811071214_FH-Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C330nf_SMD</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1811071214_FH-Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf</field>
+        <field name="Description">50V 330nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LibPart">Local_Device_Library:C330nf_SMD</field>
+        <field name="JLCPCB Part #">C1740</field>
+        <field name="Manufacturer">FH(Guangdong Fenghua Advanced Tech)</field>
+        <field name="MFR.Part #">0805B334K500NT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Device_Library" part="R100K_0.0625W">
+      <description>Chip Resistor 100k, 1/16W</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R100K_0.0625W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf</field>
+        <field name="LibPart">Local_Device_Library:R100K_0.0625W</field>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 100kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25741</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF1003TCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Device_Library" part="R10K_0.0625W">
+      <description>Chip Resistor 10k, 1/16W</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R10K_0.0625W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</field>
+        <field name="LibPart">Local_Device_Library:R10K_0.0625W</field>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25744</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF1002TCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Device_Library" part="R150K_0.0625W">
+      <description>Chip Resistor 150k, 1/16W</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1503TCE_C25755.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R150K_0.0625W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1503TCE_C25755.pdf</field>
+        <field name="LibPart">Local_Device_Library:R150K_0.0625W</field>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 150kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25755</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF1503TCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Device_Library" part="R180_0.125W">
+      <description>Chip Resistor 180, 1/8W</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0805W8F1800T5E_C25270.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R180_0.125W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0805W8F1800T5E_C25270.pdf</field>
+        <field name="LibPart">Local_Device_Library:R180_0.125W</field>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/8W Thick Film Resistors 150V ±100ppm/℃ -55℃~+155℃ 180Ω 0805 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25270</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0805W8F1800T5E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Device_Library" part="R330K_0.0625W">
+      <description>Chip Resistor 330k, 1/16W</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF3303TCE_C25778.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R330K_0.0625W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF3303TCE_C25778.pdf</field>
+        <field name="LibPart">Local_Device_Library:R330K_0.0625W</field>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 330kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25778</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF3303TCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Device_Library" part="R33K_0.0625W">
+      <description>Chip Resistor 33k, 1/16W</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF3302TCE_C25779.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R33K_0.0625W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF3302TCE_C25779.pdf</field>
+        <field name="LibPart">Local_Device_Library:R33K_0.0625W</field>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 33kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25779</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0402WGF3302TCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Device_Library" part="R680K_0.1W">
+      <description>Chip Resistor 680k, 0,1W</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R680K_0.1W</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</field>
+        <field name="LibPart">Local_Device_Library:R680K_0.1W</field>
+        <field name="Category">Resistor</field>
+        <field name="Description">±1% 1/10W Thick Film Resistors 75V ±100ppm/℃ -55℃~+155℃ 680kΩ 0603 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Famely">Resistor</field>
+        <field name="JLCPCB Part #">C25822</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF6803T5E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Diode_Library" part="1N4148WS">
+      <description>100V 0.15A Fast switching Diode, SOD-323F</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148WS</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323F</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech--CJ-1N4148WS_C2128.pdf</field>
+        <field name="LibPart">Local_Diode_Library:1N4148WS</field>
+        <field name="JLCPCB Part #">C2128</field>
+        <field name="Manufacturer">Changjiang Electronics Tech (CJ)</field>
+        <field name="MFR.Part #">1N4148WS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Miscellaneous_Library" part="78L05G_SOT89">
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1809200029_UTC-Unisonic-Tech-78L05G-AB3-R_C71136.pdf</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">78L05G_SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1809200029_UTC-Unisonic-Tech-78L05G-AB3-R_C71136.pdf</field>
+        <field name="LibPart">Local_Misckllaneous_Library:78L05G_SOT89</field>
+        <field name="JLCPCB Part #">C71136</field>
+        <field name="Manufacturer">UTC(Unisonic Tech)</field>
+        <field name="MFR.Part #">78L05G-AB3-R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local_Miscellaneous_Library" part="LM358DR2G">
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1811100911_onsemi-LM358DR2G-_C7950.pdf</docs>
       <footprints>
         <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
         <fp>DIP*W7.62mm*</fp>
@@ -351,9 +856,13 @@
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">ICL7621BMTV</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-99-8</field>
-        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/ICL7612-ICL764X.pdf</field>
+        <field name="Value">LM358DR2G</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1811100911_onsemi-LM358DR2G-_C7950.pdf</field>
+        <field name="LibPart">Local_Miscellaneous_Library:LM358DR2G</field>
+        <field name="JLCPCB Part #">C7950</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="MFR.Part #">LM358DR2G</field>
       </fields>
       <pins>
         <pin num="1" name="" type="output"/>
@@ -366,40 +875,29 @@
         <pin num="8" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Regulator_Linear" part="LM7805_TO220">
-      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
-      <docs>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</docs>
+    <libpart lib="Local_Transistor_BJT_Library" part="S8050_SOT23">
+      <description>0.5A Ic, 25V Vce, 300mW, NPN Bipolar Transistor, SOT-23</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1811052004_Changjiang-Electronics-Tech--CJ-SS8050_C2150.pdf</docs>
       <footprints>
-        <fp>TO?220*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LM7805_TO220</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
-        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VI" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="VO" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="Transistor_BJT" part="BC547">
-      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
-      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
-      <footprints>
-        <fp>TO?92*</fp>
+        <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">BC547</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
-        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+        <field name="Value">S8050_SOT23</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1811052004_Changjiang-Electronics-Tech--CJ-SS8050_C2150.pdf</field>
+        <field name="LibPart">Local_Transistor_BJT_Library</field>
+        <field name="Category">Transistors</field>
+        <field name="Description">25V 300mW 1.5A 200@100mA,1V 100MHz 500mV@800mA,80mA NPN +150℃@(Tj) SOT-23(SOT-23-3) Bipolar Transistors - BJT ROHS</field>
+        <field name="Famely">Transistors</field>
+        <field name="JLCPCB Part #">C2150</field>
+        <field name="Manufacturer">Changjiang Electronics Tech (CJ)</field>
+        <field name="Manufacturer PN">SS8050</field>
       </fields>
       <pins>
-        <pin num="1" name="C" type="passive"/>
-        <pin num="2" name="B" type="input"/>
-        <pin num="3" name="E" type="passive"/>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
   </libparts>
@@ -407,23 +905,20 @@
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
-    <library logical="Device">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
-    </library>
-    <library logical="Diode">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
-    </library>
     <library logical="Local_Connectors_Library">
       <uri>C:\Users\Steen\Documents\3 - My OTHER documents\Projects\kicad-library\symbols/Local_Connectors_Library.kicad_sym</uri>
+    </library>
+    <library logical="Local_Device_Library">
+      <uri>C:\Users\Steen\Documents\3 - My OTHER documents\Projects\autoStart\hardware/library/symbols/Local_Device_Library.kicad_sym</uri>
+    </library>
+    <library logical="Local_Diode_Library">
+      <uri>C:\Users\Steen\Documents\3 - My OTHER documents\Projects\autoStart\hardware/library/symbols/Local_Diode_Library.kicad_sym</uri>
     </library>
     <library logical="Local_Miscellaneous_Library">
       <uri>C:\Users\Steen\Documents\3 - My OTHER documents\Projects\kicad-library\symbols/Local_Miscellaneous_Library.kicad_sym</uri>
     </library>
-    <library logical="Regulator_Linear">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
-    </library>
-    <library logical="Transistor_BJT">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    <library logical="Local_Transistor_BJT_Library">
+      <uri>C:\Users\Steen\Documents\3 - My OTHER documents\Projects\autoStart\hardware/library/symbols/Local_Transistor_BJT_Library.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -433,36 +928,37 @@
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="R" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
-      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="2" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
     </net>
     <net code="3" name="Net-(C1-Pad2)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="U1" pin="1" pintype="output"/>
+      <node ref="U1" pin="7" pintype="output"/>
     </net>
     <net code="4" name="Net-(C2-Pad2)">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
     <net code="5" name="Net-(C3-Pad1)">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
     </net>
     <net code="6" name="Net-(J1-Pad1)">
       <node ref="J1" pin="1" pinfunction="S" pintype="passive"/>
@@ -470,38 +966,40 @@
     </net>
     <net code="7" name="Net-(J1-Pad2)">
       <node ref="J1" pin="2" pinfunction="T" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
     </net>
     <net code="8" name="Net-(J2-Pad2)">
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(Q1-Pad2)">
-      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
-      <node ref="R9" pin="1" pintype="passive"/>
-    </net>
-    <net code="10" name="Net-(R7-Pad1)">
-      <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="11" name="Net-(R9-Pad2)">
+    <net code="9" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R9" pin="2" pintype="passive"/>
-      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="10" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
     </net>
     <net code="12" name="VCC">
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="U2" pin="8" pinfunction="V+" pintype="power_in"/>
-      <node ref="U3" pin="3" pinfunction="VO" pintype="power_out"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="OUT" pintype="power_out"/>
     </net>
     <net code="13" name="VS">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="U3" pin="1" pinfunction="VI" pintype="power_in"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IN" pintype="power_in"/>
     </net>
     <net code="14" name="unconnected-(J1-Pad3)">
       <node ref="J1" pin="3" pinfunction="RA" pintype="passive+no_connect"/>
